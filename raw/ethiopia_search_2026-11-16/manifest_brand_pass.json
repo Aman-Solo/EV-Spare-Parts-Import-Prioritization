@@ -1,0 +1,202 @@
+[
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "brake_pad",
+  "query": "BYD brake pad",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20brake%20pad",
+  "http_status": 200,
+  "file": "adeybrand__byd__brake_pad.json",
+  "bytes": 4673
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "brake_disc",
+  "query": "BYD brake disc",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20brake%20disc",
+  "http_status": 200,
+  "file": "adeybrand__byd__brake_disc.json",
+  "bytes": 4674
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "cabin_air_filter",
+  "query": "BYD cabin air filter",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20cabin%20air%20filter",
+  "http_status": 200,
+  "file": "adeybrand__byd__cabin_air_filter.json",
+  "bytes": 1156
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "wiper_blade",
+  "query": "BYD wiper blade",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20wiper%20blade",
+  "http_status": 200,
+  "file": "adeybrand__byd__wiper_blade.json",
+  "bytes": 4120
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "headlight",
+  "query": "BYD headlight",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20headlight",
+  "http_status": 200,
+  "file": "adeybrand__byd__headlight.json",
+  "bytes": 3035
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "tail_light",
+  "query": "BYD tail light",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20tail%20light",
+  "http_status": 200,
+  "file": "adeybrand__byd__tail_light.json",
+  "bytes": 3036
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "side_mirror",
+  "query": "BYD side mirror",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20side%20mirror",
+  "http_status": 200,
+  "file": "adeybrand__byd__side_mirror.json",
+  "bytes": 4120
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "bumper",
+  "query": "BYD bumper",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20bumper",
+  "http_status": 200,
+  "file": "adeybrand__byd__bumper.json",
+  "bytes": 4115
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "fender_body_panel",
+  "query": "BYD fender",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20fender",
+  "http_status": 200,
+  "file": "adeybrand__byd__fender_body_panel.json",
+  "bytes": 10824
+ },
+ {
+  "site": "adey_brand",
+  "brand": "BYD",
+  "category": "shock_absorber",
+  "query": "BYD shock absorber",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20shock%20absorber",
+  "http_status": 200,
+  "file": "adeybrand__byd__shock_absorber.json",
+  "bytes": 2215
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "brake_pad",
+  "query": "Volkswagen brake pad",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20brake%20pad",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__brake_pad.json",
+  "bytes": 10560
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "brake_disc",
+  "query": "Volkswagen brake disc",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20brake%20disc",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__brake_disc.json",
+  "bytes": 10562
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "cabin_air_filter",
+  "query": "Volkswagen cabin air filter",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20cabin%20air%20filter",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__cabin_air_filter.json",
+  "bytes": 10585
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "wiper_blade",
+  "query": "Volkswagen wiper blade",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20wiper%20blade",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__wiper_blade.json",
+  "bytes": 10571
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "headlight",
+  "query": "Volkswagen headlight",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20headlight",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__headlight.json",
+  "bytes": 10561
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "tail_light",
+  "query": "Volkswagen tail light",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20tail%20light",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__tail_light.json",
+  "bytes": 10562
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "side_mirror",
+  "query": "Volkswagen side mirror",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20side%20mirror",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__side_mirror.json",
+  "bytes": 10571
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "bumper",
+  "query": "Volkswagen bumper",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20bumper",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__bumper.json",
+  "bytes": 10566
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "fender_body_panel",
+  "query": "Volkswagen fender",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20fender",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__fender_body_panel.json",
+  "bytes": 11179
+ },
+ {
+  "site": "adey_brand",
+  "brand": "Volkswagen",
+  "category": "shock_absorber",
+  "query": "Volkswagen shock absorber",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20shock%20absorber",
+  "http_status": 200,
+  "file": "adeybrand__volkswagen__shock_absorber.json",
+  "bytes": 10583
+ }
+]

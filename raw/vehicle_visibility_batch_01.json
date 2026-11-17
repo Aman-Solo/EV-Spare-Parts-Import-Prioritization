@@ -1,0 +1,98 @@
+{
+  "collection_date": "2026-11-16",
+  "batch": "vehicle_visibility_01",
+  "records": [
+    {
+      "evidence_id": "ADEY-VEH-001",
+      "source_name": "Adey Market",
+      "source_url": "https://adey-market.com/categories/cars?type=cars_electric",
+      "evidence_type": "Ethiopian marketplace vehicle visibility",
+      "manufacturer": "BYD",
+      "model": "Yuan Up (Atto 2)",
+      "model_year_or_generation": null,
+      "listing_reference": "BYD Yuan Up (Atto 2)",
+      "observed_value": "1,362 listings in the page's Popular in Cars list",
+      "supporting_text": "BYD Yuan Up (Atto 2) 1,362",
+      "interpretation_status": "observed marketplace listing count; not registrations or sales",
+      "fields_unavailable": ["model year", "generation", "individual listing details"]
+    },
+    {
+      "evidence_id": "ADEY-VEH-002",
+      "source_name": "Adey Market",
+      "source_url": "https://adey-market.com/categories/cars?type=cars_electric",
+      "evidence_type": "Ethiopian marketplace vehicle visibility",
+      "manufacturer": "Toyota",
+      "model": "bZ series (bZ4X, bZ3, bZ3X, bZ5)",
+      "model_year_or_generation": null,
+      "listing_reference": "Toyota bZ series (bZ4X, bZ3, bZ3X, bZ5)",
+      "observed_value": "1,021 listings in the page's Popular in Cars list",
+      "supporting_text": "Toyota bZ series (bZ4X, bZ3, bZ3X, bZ5) 1,021",
+      "interpretation_status": "observed grouped marketplace listing count; not bZ4X-only registrations or sales",
+      "fields_unavailable": ["bZ4X-only listing count", "model year", "generation", "individual listing details"]
+    },
+    {
+      "evidence_id": "ADEY-VEH-003",
+      "source_name": "Adey Market",
+      "source_url": "https://adey-market.com/categories/cars?type=cars_electric",
+      "evidence_type": "Ethiopian marketplace vehicle visibility",
+      "manufacturer": "BYD",
+      "model": "Seagull (Dolphin Mini / Atto 1)",
+      "model_year_or_generation": null,
+      "listing_reference": "BYD Seagull (Dolphin Mini / Atto 1)",
+      "observed_value": "764 listings in the page's Popular in Cars list",
+      "supporting_text": "BYD Seagull (Dolphin Mini / Atto 1) 764",
+      "interpretation_status": "observed marketplace listing count; not registrations or sales",
+      "fields_unavailable": ["model year", "generation", "individual listing details"]
+    },
+    {
+      "evidence_id": "GEZAT-VEH-001",
+      "source_name": "Gezat Electric",
+      "source_url": "https://ev.gezat.et/",
+      "evidence_type": "Ethiopian EV catalogue and marketplace presence",
+      "manufacturer": "BYD",
+      "model": "Seagull",
+      "model_year_or_generation": null,
+      "listing_reference": "BYD showroom model; Explore model link available",
+      "observed_value": "Model explicitly shown in the electric collection and charging calculator",
+      "supporting_text": "BYD: Seagull, Yuan Up, Song Plus EV, e2, Yuan Plus, Tang L EV; Seagull; Start with a charging assessment for your parking location and daily distance.",
+      "interpretation_status": "observed catalogue/model presence; not proof of registrations, sales, or current stock",
+      "fields_unavailable": ["current stock quantity", "displayed purchase price", "model year", "part fitment"]
+    },
+    {
+      "evidence_id": "GEZAT-VEH-002",
+      "source_name": "Gezat Electric",
+      "source_url": "https://ev.gezat.et/",
+      "evidence_type": "Ethiopian EV catalogue and marketplace presence",
+      "manufacturer": "BYD",
+      "model": "Yuan Up",
+      "model_year_or_generation": null,
+      "listing_reference": "BYD showroom model; charging calculator model option",
+      "observed_value": "Model explicitly shown in the electric collection and charging calculator",
+      "supporting_text": "BYD: Seagull, Yuan Up, Song Plus EV, e2, Yuan Plus, Tang L EV; Model Seagull (38.88 kWh) Yuan Up Song Plus EV",
+      "interpretation_status": "observed catalogue/model presence; not proof of registrations, sales, or current stock",
+      "fields_unavailable": ["current stock quantity", "displayed purchase price", "model year", "part fitment"]
+    }
+  ],
+  "page_summary": [
+    {
+      "source_url": "https://adey-market.com/categories/cars?type=cars_electric",
+      "firecrawl_status": "success",
+      "http_status": 200,
+      "pages_inspected": 1,
+      "relevant_records_extracted": 3,
+      "fields_available": ["manufacturer", "model", "listing reference", "listing count", "source URL", "collection date"],
+      "fields_unavailable": ["model year", "generation", "vehicle registrations", "vehicle sales", "part compatibility"],
+      "notes": "Page metadata describes 13,697 current electric and plug-in-hybrid car listings from independent sellers in Ethiopia. The extracted candidate counts are grouped marketplace listing counts."
+    },
+    {
+      "source_url": "https://ev.gezat.et/",
+      "firecrawl_status": "success",
+      "http_status": 200,
+      "pages_inspected": 1,
+      "relevant_records_extracted": 2,
+      "fields_available": ["manufacturer", "model", "catalogue/model reference", "Ethiopia context", "source URL", "collection date"],
+      "fields_unavailable": ["stock quantity", "purchase price", "model year", "generation", "part compatibility"],
+      "notes": "Gezat metadata identifies the site as an automotive marketplace for electric cars in Ethiopia. The page also says local availability of reference colours is to be confirmed."
+    }
+  ]
+}

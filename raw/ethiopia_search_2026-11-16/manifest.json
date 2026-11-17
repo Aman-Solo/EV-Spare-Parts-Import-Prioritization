@@ -1,0 +1,603 @@
+[
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "brake_pad",
+  "query": "BYD Seagull brake pad",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20brake%20pad",
+  "http_status": 200,
+  "file": "adey__seagull__brake_pad.json",
+  "bytes": 11208
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "brake_pad",
+  "query": "BYD Seagull brake pad",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20brake%20pad",
+  "http_status": 200,
+  "file": "jiji__seagull__brake_pad.html",
+  "bytes": 66296
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "brake_disc",
+  "query": "BYD Seagull brake disc",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20brake%20disc",
+  "http_status": 200,
+  "file": "adey__seagull__brake_disc.json",
+  "bytes": 11209
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "brake_disc",
+  "query": "BYD Seagull brake disc",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20brake%20disc",
+  "http_status": 200,
+  "file": "jiji__seagull__brake_disc.html",
+  "bytes": 66303
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "cabin_air_filter",
+  "query": "BYD Seagull cabin air filter",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20cabin%20air%20filter",
+  "http_status": 200,
+  "file": "adey__seagull__cabin_air_filter.json",
+  "bytes": 11216
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "cabin_air_filter",
+  "query": "BYD Seagull cabin air filter",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20cabin%20air%20filter",
+  "http_status": 200,
+  "file": "jiji__seagull__cabin_air_filter.html",
+  "bytes": 41714
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "wiper_blade",
+  "query": "BYD Seagull wiper blade",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20wiper%20blade",
+  "http_status": 200,
+  "file": "adey__seagull__wiper_blade.json",
+  "bytes": 11203
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "wiper_blade",
+  "query": "BYD Seagull wiper blade",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20wiper%20blade",
+  "http_status": 200,
+  "file": "jiji__seagull__wiper_blade.html",
+  "bytes": 41673
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "headlight",
+  "query": "BYD Seagull headlight",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20headlight",
+  "http_status": 200,
+  "file": "adey__seagull__headlight.json",
+  "bytes": 11201
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "headlight",
+  "query": "BYD Seagull headlight",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20headlight",
+  "http_status": 200,
+  "file": "jiji__seagull__headlight.html",
+  "bytes": 146988
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "tail_light",
+  "query": "BYD Seagull tail light",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20tail%20light",
+  "http_status": 200,
+  "file": "adey__seagull__tail_light.json",
+  "bytes": 11202
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "tail_light",
+  "query": "BYD Seagull tail light",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20tail%20light",
+  "http_status": 200,
+  "file": "jiji__seagull__tail_light.html",
+  "bytes": 80711
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "side_mirror",
+  "query": "BYD Seagull side mirror",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20side%20mirror",
+  "http_status": 200,
+  "file": "adey__seagull__side_mirror.json",
+  "bytes": 11203
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "side_mirror",
+  "query": "BYD Seagull side mirror",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20side%20mirror",
+  "http_status": 200,
+  "file": "jiji__seagull__side_mirror.html",
+  "bytes": 63263
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "bumper",
+  "query": "BYD Seagull bumper",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20bumper",
+  "http_status": 200,
+  "file": "adey__seagull__bumper.json",
+  "bytes": 11199
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "bumper",
+  "query": "BYD Seagull bumper",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20bumper",
+  "http_status": 200,
+  "file": "jiji__seagull__bumper.html",
+  "bytes": 99956
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "fender_body_panel",
+  "query": "BYD Seagull fender",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20fender",
+  "http_status": 200,
+  "file": "adey__seagull__fender_body_panel.json",
+  "bytes": 11208
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "fender_body_panel",
+  "query": "BYD Seagull fender",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20fender",
+  "http_status": 200,
+  "file": "jiji__seagull__fender_body_panel.html",
+  "bytes": 72113
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "seagull",
+  "category": "shock_absorber",
+  "query": "BYD Seagull shock absorber",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20shock%20absorber",
+  "http_status": 200,
+  "file": "adey__seagull__shock_absorber.json",
+  "bytes": 11207
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "seagull",
+  "category": "shock_absorber",
+  "query": "BYD Seagull shock absorber",
+  "url": "https://jiji.com.et/search?query=BYD%20Seagull%20shock%20absorber",
+  "http_status": 200,
+  "file": "jiji__seagull__shock_absorber.html",
+  "bytes": 59628
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "brake_pad",
+  "query": "BYD Yuan Up brake pad",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20brake%20pad",
+  "http_status": 200,
+  "file": "adey__yuan_up__brake_pad.json",
+  "bytes": 11441
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "brake_pad",
+  "query": "BYD Yuan Up brake pad",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20brake%20pad",
+  "http_status": 200,
+  "file": "jiji__yuan_up__brake_pad.html",
+  "bytes": 67170
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "brake_disc",
+  "query": "BYD Yuan Up brake disc",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20brake%20disc",
+  "http_status": 200,
+  "file": "adey__yuan_up__brake_disc.json",
+  "bytes": 11443
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "brake_disc",
+  "query": "BYD Yuan Up brake disc",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20brake%20disc",
+  "http_status": 200,
+  "file": "jiji__yuan_up__brake_disc.html",
+  "bytes": 67182
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "cabin_air_filter",
+  "query": "BYD Yuan Up cabin air filter",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20cabin%20air%20filter",
+  "http_status": 200,
+  "file": "adey__yuan_up__cabin_air_filter.json",
+  "bytes": 11450
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "cabin_air_filter",
+  "query": "BYD Yuan Up cabin air filter",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20cabin%20air%20filter",
+  "http_status": 200,
+  "file": "jiji__yuan_up__cabin_air_filter.html",
+  "bytes": 41712
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "wiper_blade",
+  "query": "BYD Yuan Up wiper blade",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20wiper%20blade",
+  "http_status": 200,
+  "file": "adey__yuan_up__wiper_blade.json",
+  "bytes": 11436
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "wiper_blade",
+  "query": "BYD Yuan Up wiper blade",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20wiper%20blade",
+  "http_status": 200,
+  "file": "jiji__yuan_up__wiper_blade.html",
+  "bytes": 71,
+  "note": "first attempt failed (network error, status 0); re-fetched 2026-11-16 with redirects followed"
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "headlight",
+  "query": "BYD Yuan Up headlight",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20headlight",
+  "http_status": 200,
+  "file": "adey__yuan_up__headlight.json",
+  "bytes": 11435
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "headlight",
+  "query": "BYD Yuan Up headlight",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20headlight",
+  "http_status": 200,
+  "file": "jiji__yuan_up__headlight.html",
+  "bytes": 167969
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "tail_light",
+  "query": "BYD Yuan Up tail light",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20tail%20light",
+  "http_status": 200,
+  "file": "adey__yuan_up__tail_light.json",
+  "bytes": 11436
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "tail_light",
+  "query": "BYD Yuan Up tail light",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20tail%20light",
+  "http_status": 200,
+  "file": "jiji__yuan_up__tail_light.html",
+  "bytes": 68542
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "side_mirror",
+  "query": "BYD Yuan Up side mirror",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20side%20mirror",
+  "http_status": 200,
+  "file": "adey__yuan_up__side_mirror.json",
+  "bytes": 11436
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "side_mirror",
+  "query": "BYD Yuan Up side mirror",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20side%20mirror",
+  "http_status": 200,
+  "file": "jiji__yuan_up__side_mirror.html",
+  "bytes": 85927
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "bumper",
+  "query": "BYD Yuan Up bumper",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20bumper",
+  "http_status": 200,
+  "file": "adey__yuan_up__bumper.json",
+  "bytes": 11431
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "bumper",
+  "query": "BYD Yuan Up bumper",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20bumper",
+  "http_status": 200,
+  "file": "jiji__yuan_up__bumper.html",
+  "bytes": 93942
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "fender_body_panel",
+  "query": "BYD Yuan Up fender",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20fender",
+  "http_status": 200,
+  "file": "adey__yuan_up__fender_body_panel.json",
+  "bytes": 11440
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "fender_body_panel",
+  "query": "BYD Yuan Up fender",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20fender",
+  "http_status": 200,
+  "file": "jiji__yuan_up__fender_body_panel.html",
+  "bytes": 71674
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "yuan_up",
+  "category": "shock_absorber",
+  "query": "BYD Yuan Up shock absorber",
+  "url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20shock%20absorber",
+  "http_status": 200,
+  "file": "adey__yuan_up__shock_absorber.json",
+  "bytes": 11439
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "yuan_up",
+  "category": "shock_absorber",
+  "query": "BYD Yuan Up shock absorber",
+  "url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20shock%20absorber",
+  "http_status": 200,
+  "file": "jiji__yuan_up__shock_absorber.html",
+  "bytes": 59631
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "brake_pad",
+  "query": "Volkswagen ID.4 brake pad",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20brake%20pad",
+  "http_status": 200,
+  "file": "adey__id4__brake_pad.json",
+  "bytes": 11080
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "brake_pad",
+  "query": "Volkswagen ID.4 brake pad",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20brake%20pad",
+  "http_status": 200,
+  "file": "jiji__id4__brake_pad.html",
+  "bytes": 59855
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "brake_disc",
+  "query": "Volkswagen ID.4 brake disc",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20brake%20disc",
+  "http_status": 200,
+  "file": "adey__id4__brake_disc.json",
+  "bytes": 11081
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "brake_disc",
+  "query": "Volkswagen ID.4 brake disc",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20brake%20disc",
+  "http_status": 200,
+  "file": "jiji__id4__brake_disc.html",
+  "bytes": 59864
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "cabin_air_filter",
+  "query": "Volkswagen ID.4 cabin air filter",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20cabin%20air%20filter",
+  "http_status": 200,
+  "file": "adey__id4__cabin_air_filter.json",
+  "bytes": 11088
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "cabin_air_filter",
+  "query": "Volkswagen ID.4 cabin air filter",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20cabin%20air%20filter",
+  "http_status": 200,
+  "file": "jiji__id4__cabin_air_filter.html",
+  "bytes": 41744
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "wiper_blade",
+  "query": "Volkswagen ID.4 wiper blade",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20wiper%20blade",
+  "http_status": 200,
+  "file": "adey__id4__wiper_blade.json",
+  "bytes": 11077
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "wiper_blade",
+  "query": "Volkswagen ID.4 wiper blade",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20wiper%20blade",
+  "http_status": 200,
+  "file": "jiji__id4__wiper_blade.html",
+  "bytes": 41704
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "headlight",
+  "query": "Volkswagen ID.4 headlight",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20headlight",
+  "http_status": 200,
+  "file": "adey__id4__headlight.json",
+  "bytes": 11074
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "headlight",
+  "query": "Volkswagen ID.4 headlight",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20headlight",
+  "http_status": 200,
+  "file": "jiji__id4__headlight.html",
+  "bytes": 155585
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "tail_light",
+  "query": "Volkswagen ID.4 tail light",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20tail%20light",
+  "http_status": 200,
+  "file": "adey__id4__tail_light.json",
+  "bytes": 11075
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "tail_light",
+  "query": "Volkswagen ID.4 tail light",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20tail%20light",
+  "http_status": 200,
+  "file": "jiji__id4__tail_light.html",
+  "bytes": 57354
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "side_mirror",
+  "query": "Volkswagen ID.4 side mirror",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20side%20mirror",
+  "http_status": 200,
+  "file": "adey__id4__side_mirror.json",
+  "bytes": 11076
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "side_mirror",
+  "query": "Volkswagen ID.4 side mirror",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20side%20mirror",
+  "http_status": 200,
+  "file": "jiji__id4__side_mirror.html",
+  "bytes": 64297
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "bumper",
+  "query": "Volkswagen ID.4 bumper",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20bumper",
+  "http_status": 200,
+  "file": "adey__id4__bumper.json",
+  "bytes": 11071
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "bumper",
+  "query": "Volkswagen ID.4 bumper",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20bumper",
+  "http_status": 200,
+  "file": "jiji__id4__bumper.html",
+  "bytes": 78700
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "fender_body_panel",
+  "query": "Volkswagen ID.4 fender",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20fender",
+  "http_status": 200,
+  "file": "adey__id4__fender_body_panel.json",
+  "bytes": 11079
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "fender_body_panel",
+  "query": "Volkswagen ID.4 fender",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20fender",
+  "http_status": 200,
+  "file": "jiji__id4__fender_body_panel.html",
+  "bytes": 56300
+ },
+ {
+  "site": "adey",
+  "vehicle_id": "id4",
+  "category": "shock_absorber",
+  "query": "Volkswagen ID.4 shock absorber",
+  "url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20shock%20absorber",
+  "http_status": 200,
+  "file": "adey__id4__shock_absorber.json",
+  "bytes": 11080
+ },
+ {
+  "site": "jiji",
+  "vehicle_id": "id4",
+  "category": "shock_absorber",
+  "query": "Volkswagen ID.4 shock absorber",
+  "url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20shock%20absorber",
+  "http_status": 200,
+  "file": "jiji__id4__shock_absorber.html",
+  "bytes": 41728
+ }
+]

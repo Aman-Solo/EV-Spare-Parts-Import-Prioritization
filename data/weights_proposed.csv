@@ -1,0 +1,6 @@
+factor,weight,reason
+demand_evidence,0.3,Main driver of import value: parts for cars that are visible in the market and parts that wear out or get damaged.
+compatibility,0.2,Importing the wrong part is a direct loss; fitment certainty decides whether a part can be stocked at all.
+sourcing_practicality,0.2,"A part is only a candidate if a supplier, part number and price exist to act on."
+scarcity_evidence,0.15,"Lowered on purpose: the Ethiopian evidence is the weakest data (first page of 2 platforms, no stock data)."
+evidence_confidence,0.15,Lets well-documented rows outrank rows that look good only because data is thin.

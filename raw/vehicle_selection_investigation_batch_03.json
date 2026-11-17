@@ -1,0 +1,231 @@
+{
+  "collection_date": "2026-11-16",
+  "batch": "vehicle_selection_investigation_03",
+  "scope": ["Toyota bZ4X", "Volkswagen ID.4", "Changan BenBen E-Star"],
+  "price_schema": {
+    "platform_reported_typical_price": "A value explicitly reported by a marketplace category page; not recalculated here.",
+    "calculated_average_price": "Arithmetic average calculated from selected listing prices; null in this batch.",
+    "calculated_median_price": "Median calculated from selected listing prices; null in this batch.",
+    "currency_rule": "Original displayed currency is preserved. No currency conversion was performed."
+  },
+  "pagination_rule": "total_pages_available is the platform-reported page count; pages_inspected is the number actually inspected.",
+  "candidates": [
+    {
+      "manufacturer": "Toyota",
+      "model": "bZ4X",
+      "model_year": null,
+      "generation": null,
+      "variant": null,
+      "exact_model_market_evidence": [
+        {
+          "source_name": "Adey Market",
+          "url": "https://adey-market.com/item/77509-toyota-bz4x-2026",
+          "seller": "AFROMEKINA",
+          "displayed_price": {"amount": 5800000, "currency": "ETB"},
+          "listing_status": "not available any more",
+          "model_year": 2026,
+          "generation": null,
+          "variant": null,
+          "location": "Addis Ababa",
+          "supporting_evidence": "Toyota BZ4X 2026; electric; automatic; 28,000 km."
+        },
+        {
+          "source_name": "Adey Market",
+          "url": "https://adey-market.com/item/880179-toyota-bz4x-2023",
+          "seller": "ሐሩ አጠቃላይ የኮሚሽን ስራ",
+          "displayed_price": {"amount": 6000000, "currency": "ETB"},
+          "listing_status": "not available any more",
+          "model_year": 2023,
+          "generation": null,
+          "variant": null,
+          "location": null,
+          "supporting_evidence": "Toyota Bz4X 2023; crossover SUV EV; 72.8 kWh; dual-motor AWD; automatic; electric."
+        },
+        {
+          "source_name": "Golden Car Market",
+          "url": "https://www.goldencarmarket.net/listings/31",
+          "seller": "Kena Car Market / Golden Car Market",
+          "displayed_price": {"amount": 7300000, "currency": "Birr"},
+          "listing_status": "For Sale",
+          "model_year": 2025,
+          "generation": null,
+          "variant": "4WD ULTRA",
+          "location": "PIYASA, Addis Ababa",
+          "supporting_evidence": "Brand new, 60 km, electric, automatic; posted 1 hour ago; 7,300,000 Birr."
+        }
+      ],
+      "grouped_evidence": [
+        {
+          "source_name": "Adey Market",
+          "url": "https://adey-market.com/categories/cars/toyota-bz-series-bz4x-bz3-bz3x-bz5",
+          "listing_count": 1021,
+          "interpretation": "Grouped Toyota bZ-series result; not bZ4X-only and not used as an exact bZ4X count.",
+          "total_pages_available": null,
+          "pages_inspected": 0,
+          "access_note": "Direct scrape timed out and then returned a server-error page; individual exact bZ4X URLs were inspected separately."
+        },
+        {
+          "source_name": "Gezat Electric",
+          "url": "https://gezat.et/",
+          "listing_url": "https://gezat.et/find-new-car?brand=Toyota&model=bZ4X",
+          "listing_status": "request price",
+          "platform_reported_typical_price": null,
+          "calculated_average_price": null,
+          "calculated_median_price": null,
+          "supporting_evidence": "Toyota bZ4X is shown as a request-price model."
+        }
+      ],
+      "technical_specification_evidence": "Dedicated Toyota bZ4X parts catalogue with year paths 2022-2026: https://www.toyota-spare-parts.com/toyota-cars/BZ4X",
+      "parts_compatibility_evidence": "Model-specific Toyota catalogue exists, but specific assignment-category part records were not yet extracted.",
+      "assessment": {
+        "ethiopian_market_visibility": "moderate to strong exact-model evidence across Adey and Golden; two Adey records expired, one Golden record active",
+        "local_evidence_quality": "moderate; exact local listings exist, with mixed availability status",
+        "technical_specifications": "strong catalogue structure, but exact vehicle version still needs confirmation",
+        "parts_compatibility": "promising but requires model-year/version drill-down",
+        "deadline_feasibility": "moderate; Toyota catalogue navigation may require additional model/version steps",
+        "overall_status": "credible alternative third candidate"
+      }
+    },
+    {
+      "manufacturer": "Volkswagen",
+      "model": "ID.4",
+      "model_year": null,
+      "generation": null,
+      "variant": null,
+      "exact_model_market_evidence": [
+        {
+          "source_name": "Adey Market",
+          "url": "https://adey-market.com/categories/cars/volkswagen-id-4",
+          "seller": null,
+          "displayed_price": null,
+          "listing_status": "category reports current listings",
+          "model_year": null,
+          "generation": null,
+          "variant": null,
+          "total_listing_count": 102,
+          "seller_count": 59,
+          "total_pages_available": 5,
+          "pages_inspected": 1,
+          "platform_reported_typical_price": {"amount": 5700000, "currency": "ETB"},
+          "calculated_average_price": null,
+          "calculated_median_price": null,
+          "supporting_evidence": "102 current Volkswagen ID.4 listings from 59 independent sellers in Ethiopia; 84 listings give a price."
+        },
+        {
+          "source_name": "Adey Market",
+          "url": "https://adey-market.com/item/1714288-volkswagen-id4-i-d4-proo-2023",
+          "seller": "BeshBesh Car Market",
+          "displayed_price": {"amount": 6200000, "currency": "ETB"},
+          "listing_status": "New",
+          "model_year": 2023,
+          "generation": null,
+          "variant": "Pro",
+          "location": null,
+          "supporting_evidence": "Volkswagen ID4 i D4 Proo 2023; exact model Volkswagen ID.4."
+        },
+        {
+          "source_name": "Gezat",
+          "url": "https://gezat.et/listings/5ea2ebea-12ab-4fbb-8181-4809a4627e5f",
+          "seller": "Gezat",
+          "displayed_price": {"amount": 5700000, "currency": "ETB"},
+          "listing_status": "Available now",
+          "model_year": 2022,
+          "generation": null,
+          "variant": null,
+          "location": "Addis Ababa",
+          "supporting_evidence": "2022 Volkswagen ID.4; used; 39,000 km; electric; automatic; available in Addis Ababa."
+        }
+      ],
+      "grouped_evidence": [],
+      "technical_specification_evidence": "Gezat exact listing provides year, mileage, electric fuel type, and automatic transmission. EXIST provides model-specific catalogue context.",
+      "parts_compatibility_evidence": "EXIST page: https://exist.ae/catalog/cars/volkswagen/id-4. It exposes model-linked parts and prices but marks them May fit - check by VIN.",
+      "assessment": {
+        "ethiopian_market_visibility": "strong; 102 exact-model Adey listings plus an active Gezat listing",
+        "local_evidence_quality": "strongest of the three for active exact-model evidence",
+        "technical_specifications": "moderate; local listing data is useful but variant detail remains incomplete",
+        "parts_compatibility": "strongest practical starting point because model-linked parts and prices are exposed, although VIN confirmation is required",
+        "deadline_feasibility": "strong; exact local listing and parts catalogue paths are easy to document",
+        "overall_status": "recommended third candidate"
+      }
+    },
+    {
+      "manufacturer": "Changan",
+      "model": "BenBen E-Star",
+      "model_year": null,
+      "generation": null,
+      "variant": null,
+      "exact_model_market_evidence": [
+        {
+          "source_name": "Adey Market",
+          "url": "https://adey-market.com/categories/cars/changan-benben-e-star",
+          "seller": null,
+          "displayed_price": null,
+          "listing_status": "category reports current listings",
+          "model_year": null,
+          "generation": null,
+          "variant": null,
+          "total_listing_count": 279,
+          "seller_count": 125,
+          "total_pages_available": 12,
+          "pages_inspected": 1,
+          "platform_reported_typical_price": {"amount": 2700000, "currency": "ETB"},
+          "calculated_average_price": null,
+          "calculated_median_price": null,
+          "supporting_evidence": "279 current Changan Benben E-Star listings from 125 independent sellers in Ethiopia; 170 listings give a price."
+        },
+        {
+          "source_name": "Golden Car Market",
+          "url": "https://www.goldencarmarket.net/listings/198",
+          "seller": "Kena Car Market / Golden Car Market",
+          "displayed_price": {"amount": 3199999, "currency": "Birr"},
+          "listing_status": "For Sale",
+          "model_year": 2024,
+          "generation": null,
+          "variant": null,
+          "location": "GOTERA WONGELWIT, Addis Ababa",
+          "supporting_evidence": "Brand new, 0 km, electric, automatic; posted 1 hour ago; 3,199,999 Birr."
+        },
+        {
+          "source_name": "Mekina.net",
+          "url": "https://www.mekina.net/cars/changan-benben-estar-2024-white-1760536082314-11926",
+          "seller": null,
+          "displayed_price": null,
+          "listing_status": "Expired; not active",
+          "model_year": 2024,
+          "generation": null,
+          "variant": null,
+          "location": "Addis Ababa",
+          "supporting_evidence": "Changan BenBen E-Star 2024 White; electric; automatic; 10,100 km; listing not active."
+        }
+      ],
+      "grouped_evidence": [
+        {
+          "source_name": "Gezat",
+          "url": "https://gezat.et/",
+          "listing_url": "https://gezat.et/find-new-car?brand=Changan&model=Benben+E-Star",
+          "listing_status": "request price",
+          "platform_reported_typical_price": null,
+          "calculated_average_price": null,
+          "calculated_median_price": null,
+          "supporting_evidence": "Changan Benben E-Star is shown as a request-price model."
+        }
+      ],
+      "technical_specification_evidence": "No reliable local manufacturer specification page was verified in this investigation. AutoCango returned a security-verification page and was not used as evidence.",
+      "parts_compatibility_evidence": "No reliable model-specific parts catalogue or fitment evidence was found in the inspected sources.",
+      "assessment": {
+        "ethiopian_market_visibility": "strongest raw marketplace count of the three, plus an active Golden listing",
+        "local_evidence_quality": "moderate; exact listings exist, but many Adey records have incomplete detail and one inspected third-party record is expired",
+        "technical_specifications": "weak in the verified sources",
+        "parts_compatibility": "weak; this is the main assignment risk",
+        "deadline_feasibility": "moderate for vehicle visibility, weak for the required ten-part compatibility investigation",
+        "overall_status": "strong market-visibility alternative but not the most defensible third vehicle for a parts-prioritization study"
+      }
+    }
+  ],
+  "recommendation": {
+    "recommended_third_vehicle": "Volkswagen ID.4",
+    "reason": "It combines exact Ethiopian marketplace visibility, an active Gezat listing with year and vehicle details, an additional exact Adey listing, and a model-specific parts catalogue with prices and VIN-based compatibility guidance. This provides the most complete and deadline-feasible evidence chain for the later spare-parts investigation.",
+    "important_tradeoff": "Changan BenBen E-Star has the largest Adey listing count and an active Golden listing, but its technical and parts-compatibility evidence is weaker. Toyota bZ4X has strong exact listings and a dedicated parts catalogue, but Adey records inspected individually were unavailable and the grouped bZ-series count cannot be used as a bZ4X count.",
+    "status": "provisional vehicle-selection recommendation; no spare-part scoring performed"
+  }
+}

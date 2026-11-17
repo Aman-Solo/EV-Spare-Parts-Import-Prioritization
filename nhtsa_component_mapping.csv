@@ -1,0 +1,12 @@
+nhtsa_component,part_category,shared_with_other_categories,note
+SERVICE BRAKES,brake_pad,True,"Covers pads, rotors, calipers, ABS hydraulics etc.; cannot be split by component code."
+SERVICE BRAKES,brake_disc,True,"Covers pads, rotors, calipers, ABS hydraulics etc.; cannot be split by component code."
+EXTERIOR LIGHTING,headlight,True,Covers all exterior lamps; recalls give sub-component (e.g. HEADLIGHTS).
+EXTERIOR LIGHTING,tail_light,True,Covers all exterior lamps; recalls give sub-component (e.g. HEADLIGHTS).
+VISIBILITY/WIPER,wiper_blade,False,Covers wiper motor/arms/washer and blades.
+VISIBILITY,wiper_blade,True,"Covers glass, defrost, mirrors and wipers."
+VISIBILITY,side_mirror,True,"Covers glass, defrost, mirrors and wipers."
+SUSPENSION,shock_absorber,False,"Covers springs, control arms, struts and shock absorbers."
+STRUCTURE,bumper,True,"Covers body, doors, hood, frame; bumper/fender not separable."
+STRUCTURE,fender_body_panel,True,"Covers body, doors, hood, frame; bumper/fender not separable."
+(none),cabin_air_filter,False,No NHTSA component covers cabin air filters; keyword count only.

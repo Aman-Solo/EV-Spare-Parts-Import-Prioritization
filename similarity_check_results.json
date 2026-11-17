@@ -1,0 +1,40 @@
+{
+ "mine": {
+  "files_scanned": 10,
+  "functions": 45,
+  "columns": 146,
+  "blocks": 1985
+ },
+ "repos": {
+  "auto-parts-cross-reference-main": {
+   "files_scanned": 1,
+   "functions": 0,
+   "columns": 12,
+   "identical_function_names": [],
+   "identical_column_names": [],
+   "identical_blocks_5plus_lines": []
+  },
+  "automotive-part-interchange-database-main": {
+   "files_scanned": 5,
+   "functions": 12,
+   "columns": 16,
+   "identical_function_names": [
+    "main"
+   ],
+   "identical_column_names": [
+    "brand",
+    "part_number",
+    "vehicle_id"
+   ],
+   "identical_blocks_5plus_lines": []
+  },
+  "SparePartsInventory-main": {
+   "files_scanned": 6,
+   "functions": 49,
+   "columns": 17,
+   "identical_function_names": [],
+   "identical_column_names": [],
+   "identical_blocks_5plus_lines": []
+  }
+ }
+}

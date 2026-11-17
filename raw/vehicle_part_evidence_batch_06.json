@@ -1,0 +1,4307 @@
+{
+ "collection_date": "2026-11-16",
+ "batch": "vehicle_part_evidence_06",
+ "purpose": "Ethiopian spare-parts availability evidence for 30 vehicle x category combinations.",
+ "rules": "Stage 2: parses saved Ethiopian marketplace search responses (raw/ethiopia_search_2026-11-16/) into\nraw/vehicle_part_evidence_batch_06.json. Counts are ONLY what the platform states; everything else is\nlabelled as derived from the inspected first page. Prices are copied as displayed (ETB), never converted.\nListing counts are listing counts: not sales, not registrations, not demand. '0 found' means not found\non the sources inspected; it is not a scarcity claim.",
+ "records": [
+  {
+   "vehicle_id": "seagull",
+   "part_category": "brake_pad",
+   "platform": "Adey Market",
+   "query": "BYD Seagull brake pad",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__brake_pad.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull",
+     "pad"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "brake_pad",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull brake pad",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__brake_pad.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 2,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 2,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [
+    "ETB 28,000"
+   ],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "BYD Seagull &E2 Brake Pad ( በይድ ፍሬን ሸራ )",
+     "price_text": "ETB 28,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Bz4x Brake Pad (የፊት ፍሬን ሸራ )",
+     "price_text": "ETB 28,000",
+     "model_scope": "neither",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "brake_disc",
+   "platform": "Adey Market",
+   "query": "BYD Seagull brake disc",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__brake_disc.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull",
+     "disc"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "brake_disc",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull brake disc",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__brake_disc.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 2,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 2,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "BYD Seagull &E2 Brake Pad ( በይድ ፍሬን ሸራ )",
+     "price_text": "ETB 28,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Bz4x Brake Pad (የፊት ፍሬን ሸራ )",
+     "price_text": "ETB 28,000",
+     "model_scope": "neither",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "cabin_air_filter",
+   "platform": "Adey Market",
+   "query": "BYD Seagull cabin air filter",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__cabin_air_filter.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull",
+     "cabin"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "cabin_air_filter",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull cabin air filter",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__cabin_air_filter.html",
+   "result_status": "0_found",
+   "listing_count_stated": 0,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 0,
+   "pages_available_note": null,
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 0,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "wiper_blade",
+   "platform": "Adey Market",
+   "query": "BYD Seagull wiper blade",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__wiper_blade.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "wiper_blade",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull wiper blade",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__wiper_blade.html",
+   "result_status": "0_found",
+   "listing_count_stated": 0,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 0,
+   "pages_available_note": null,
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 0,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "headlight",
+   "platform": "Adey Market",
+   "query": "BYD Seagull headlight",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__headlight.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "headlight",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull headlight",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__headlight.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 24,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 2,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 14,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 3,
+   "displayed_prices_exact_model": [
+    "ETB 84,999"
+   ],
+   "displayed_prices_brand_only": [
+    "ETB 180,000",
+    "ETB 125,000",
+    "ETB 240,000"
+   ],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Byd Seagull Headlights(የፊት ማብራት )",
+     "price_text": "ETB 84,999",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "New BYD Seagull 2025 Gray",
+     "price_text": "ETB 4,400,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "BYD Seagull 2025 White",
+     "price_text": "ETB 4,100,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Byd Yuan Plus Head Light",
+     "price_text": "ETB 180,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd E2 Head Light (የፊት ማብራት )",
+     "price_text": "ETB 125,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "BYD Seagull 2025",
+     "price_text": "ETB 4,000,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Seagull 2024 Black",
+     "price_text": "ETB 3,800,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "BYD Seagull 2024 Beige",
+     "price_text": "ETB 4,150,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Byd E2 Tailgate Light (የኮፌን ማብራት)",
+     "price_text": "ETB 129,999",
+     "model_scope": "brand_only",
+     "names_part": false
+    },
+    {
+     "title": "Byd Yuan Up Center Light (የኮፈን ማብራት )",
+     "price_text": "ETB 189,999",
+     "model_scope": "brand_only",
+     "names_part": false
+    },
+    {
+     "title": "BYD Seagull 2024 Black",
+     "price_text": "ETB 3,750,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Seagull 2025 Off white",
+     "price_text": "ETB 2,650,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Byd Song Plus Head Lamp( 9 Pin)",
+     "price_text": "ETB 240,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd E2 Tail Light( የጀርባ ማብራት )",
+     "price_text": "ETB 55,000",
+     "model_scope": "brand_only",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "tail_light",
+   "platform": "Adey Market",
+   "query": "BYD Seagull tail light",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__tail_light.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "tail_light",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull tail light",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__tail_light.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 4,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 4,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 3,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [
+    "ETB 55,000",
+    "ETB 115,000",
+    "ETB 129,999"
+   ],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Byd E2 Tail Light( የጀርባ ማብራት )",
+     "price_text": "ETB 55,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd Segulle Tail Light",
+     "price_text": "ETB 115,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd E2 Tailgate Light (የኮፌን ማብራት)",
+     "price_text": "ETB 129,999",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd Yuan Up Center Light (የኮፈን ማብራት )",
+     "price_text": "ETB 189,999",
+     "model_scope": "brand_only",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "side_mirror",
+   "platform": "Adey Market",
+   "query": "BYD Seagull side mirror",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__side_mirror.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "side_mirror",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull side mirror",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__side_mirror.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 2,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 2,
+   "items_naming_exact_model_and_part": 2,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [
+    "ETB 48,000",
+    "ETB 55,000"
+   ],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Byd Seagull Side Mirror(የጎን እስፖርኪው)",
+     "price_text": "ETB 48,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Byd Seagull, Byd E2, Side Mirror",
+     "price_text": "ETB 55,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "bumper",
+   "platform": "Adey Market",
+   "query": "BYD Seagull bumper",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__bumper.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "bumper",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull bumper",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__bumper.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 7,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 7,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 4,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [
+    "ETB 210,000",
+    "ETB 168,000",
+    "ETB 169,999",
+    "ETB 169,999"
+   ],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Byd Song Plus Front Bumper (የፊት ፓራወልት )",
+     "price_text": "ETB 210,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd Yuan Up Rear Bumper (የዉሃላ ፓራወልት ) Ashe Ev Spare",
+     "price_text": "ETB 168,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd Seagull",
+     "price_text": "ETB 95,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Byd Yuan Up Front Bumper (የፊት ሙሉ ፓራኦልት)",
+     "price_text": "ETB 169,999",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Bz4x Front Bumper ( የፊት ፓራወልት )",
+     "price_text": "ETB 220,000",
+     "model_scope": "neither",
+     "names_part": true
+    },
+    {
+     "title": "Byd Front Complete Bumper (የፊት ሙሉ ፓራኦልት)",
+     "price_text": "ETB 169,999",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd Seagull Tail Gate የኋላ ኮፈን",
+     "price_text": "ETB 150,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "fender_body_panel",
+   "platform": "Adey Market",
+   "query": "BYD Seagull fender",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__fender_body_panel.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull",
+     "fender"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "fender_body_panel",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull fender",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__fender_body_panel.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 3,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 3,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 1,
+   "displayed_prices_exact_model": [
+    "ETB 22,000"
+   ],
+   "displayed_prices_brand_only": [
+    "ETB 57,000"
+   ],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "BYD Segul Fender Designed as Exterior Body Trim for the BYD Seagull",
+     "price_text": "ETB 22,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Byd E2 Fender ( ፈረፋንጎ )",
+     "price_text": "ETB 57,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Bz4x Fender ( ፈረፋንጎ )",
+     "price_text": "ETB 65,000",
+     "model_scope": "neither",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "shock_absorber",
+   "platform": "Adey Market",
+   "query": "BYD Seagull shock absorber",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Seagull%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__seagull__shock_absorber.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1025,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1025,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-seagull",
+    "brand": "BYD",
+    "preferred": [
+     "seagull"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 43,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "shock_absorber",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Seagull shock absorber",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Seagull%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__seagull__shock_absorber.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 1,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 1,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Jetour X70+ Suspension (አሞርዛተር )",
+     "price_text": "ETB 58,000",
+     "model_scope": "neither",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "brake_pad",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up brake pad",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__brake_pad.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up",
+     "pad"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "brake_pad",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up brake pad",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__brake_pad.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 2,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 2,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "New BYD Yuan Up 2025 Yellow",
+     "price_text": "ETB 5,900,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Bz4x Brake Pad (የፊት ፍሬን ሸራ )",
+     "price_text": "ETB 28,000",
+     "model_scope": "neither",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "brake_disc",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up brake disc",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__brake_disc.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up",
+     "disc"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "brake_disc",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up brake disc",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__brake_disc.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 2,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 2,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "New BYD Yuan Up 2025 Yellow",
+     "price_text": "ETB 5,900,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Bz4x Brake Pad (የፊት ፍሬን ሸራ )",
+     "price_text": "ETB 28,000",
+     "model_scope": "neither",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "cabin_air_filter",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up cabin air filter",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__cabin_air_filter.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up",
+     "cabin"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "cabin_air_filter",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up cabin air filter",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__cabin_air_filter.html",
+   "result_status": "0_found",
+   "listing_count_stated": 0,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 0,
+   "pages_available_note": null,
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 0,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "wiper_blade",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up wiper blade",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__wiper_blade.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "wiper_blade",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up wiper blade",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__wiper_blade.html",
+   "result_status": "0_found",
+   "listing_count_stated": 0,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 0,
+   "pages_available_note": null,
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 0,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "headlight",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up headlight",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__headlight.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "headlight",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up headlight",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__headlight.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 62,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 4,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 16,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [
+    "ETB 159,999"
+   ],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Byd Yuan Up Center Light (የኮፈን ማብራት )",
+     "price_text": "ETB 189,999",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "BYD Yuan Up 2025",
+     "price_text": "ETB 5,150,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Yuan Up 2025 Silver",
+     "price_text": "ETB 6,000,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Yuan Up 2025 Gray",
+     "price_text": "ETB 5,500,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "BYD Yuan Up 2025 Gray",
+     "price_text": "ETB 5,150,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Yuan Up 2025 Gray",
+     "price_text": "ETB 4,950,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Byd Yuan Up Head Light ( የፊት ማብራት )",
+     "price_text": "ETB 159,999",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "New BYD Yuan Up 2025 Blue",
+     "price_text": "ETB 6,100,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "BYD Yuan Up 2025",
+     "price_text": "ETB 3,200,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Yuan Up 2025 Gray",
+     "price_text": "ETB 6,000,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Yuan Up 2025 Gray",
+     "price_text": "ETB 4,800,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "BYD Yuan Up 2025 Gray",
+     "price_text": "ETB 5,200,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "BYD Yuan Up 2025",
+     "price_text": "ETB 5,450,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Yuan Up 2025 Gray",
+     "price_text": "ETB 6,800,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "BYD Yuan Up 2025 Off white",
+     "price_text": "ETB 5,400,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New BYD Yuan Up 2025 White",
+     "price_text": "ETB 5,450,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "tail_light",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up tail light",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__tail_light.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "tail_light",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up tail light",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__tail_light.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 2,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 2,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 1,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [
+    "ETB 129,999"
+   ],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Byd Yuan Up Center Light (የኮፈን ማብራት )",
+     "price_text": "ETB 189,999",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Byd E2 Tailgate Light (የኮፌን ማብራት)",
+     "price_text": "ETB 129,999",
+     "model_scope": "brand_only",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "side_mirror",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up side mirror",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__side_mirror.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "side_mirror",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up side mirror",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__side_mirror.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 5,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 5,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 1,
+   "displayed_prices_exact_model": [
+    "ETB 12,000"
+   ],
+   "displayed_prices_brand_only": [
+    "ETB 48,000"
+   ],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "BYD Yuan Up Original Side Mirror With BSD Sensor",
+     "price_text": "ETB 12,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Jetur X70+ Side Mirror (የጎን ስፖክይ)",
+     "price_text": "ETB 80,000",
+     "model_scope": "neither",
+     "names_part": true
+    },
+    {
+     "title": "BYD Yuan Up 2025",
+     "price_text": "ETB 5,150,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Byd E2 Door Skeleton ( የጃርባ ኮፈን )",
+     "price_text": "ETB 238,000",
+     "model_scope": "brand_only",
+     "names_part": false
+    },
+    {
+     "title": "Byd Seagull Side Mirror(የጎን እስፖርኪው)",
+     "price_text": "ETB 48,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "bumper",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up bumper",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__bumper.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "bumper",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up bumper",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__bumper.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 6,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 6,
+   "items_naming_exact_model_and_part": 4,
+   "items_naming_brand_only_and_part": 1,
+   "displayed_prices_exact_model": [
+    "ETB 169,999",
+    "ETB 185,000",
+    "ETB 168,000",
+    "ETB 200,000"
+   ],
+   "displayed_prices_brand_only": [
+    "ETB 210,000"
+   ],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Byd Yuan Up Front Bumper (የፊት ሙሉ ፓራኦልት)",
+     "price_text": "ETB 169,999",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "BYD Yuan Up Front Bunper Original New",
+     "price_text": "ETB 185,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Byd Yuan Up Rear Bumper (የዉሃላ ፓራወልት ) Ashe Ev Spare",
+     "price_text": "ETB 168,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Bz4x Front Bumper ( የፊት ፓራወልት )",
+     "price_text": "ETB 220,000",
+     "model_scope": "neither",
+     "names_part": true
+    },
+    {
+     "title": "Byd Song Plus Front Bumper (የፊት ፓራወልት )",
+     "price_text": "ETB 210,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "Byd Yuan Up Rer Bumper",
+     "price_text": "ETB 200,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "fender_body_panel",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up fender",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__fender_body_panel.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up",
+     "fender"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "fender_body_panel",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up fender",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__fender_body_panel.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 3,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 3,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [
+    "ETB 55,200"
+   ],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Front Fender Panel for a Vehicle, Possibly a White BYD Yuan Up",
+     "price_text": "ETB 55,200",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Bz4x Fender ( ፈረፋንጎ )",
+     "price_text": "ETB 65,000",
+     "model_scope": "neither",
+     "names_part": true
+    },
+    {
+     "title": "Byd Yuan Up Rer Bumper",
+     "price_text": "ETB 200,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "shock_absorber",
+   "platform": "Adey Market",
+   "query": "BYD Yuan Up shock absorber",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20Yuan%20Up%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__yuan_up__shock_absorber.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1437,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 1437,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "byd-yuan-up",
+    "brand": "BYD",
+    "preferred": [
+     "up"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 60,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "shock_absorber",
+   "platform": "Jiji Ethiopia",
+   "query": "BYD Yuan Up shock absorber",
+   "source_url": "https://jiji.com.et/search?query=BYD%20Yuan%20Up%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__yuan_up__shock_absorber.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 1,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 1,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Jetour X70+ Suspension (አሞርዛተር )",
+     "price_text": "ETB 58,000",
+     "model_scope": "neither",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "brake_pad",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 brake pad",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__brake_pad.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [
+     "pad"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "brake_pad",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 brake pad",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__brake_pad.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 1,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 1,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [
+    "ETB 44,999"
+   ],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Volkswagen Id4 Id6 Brake Pad (የፊት እግር ሸራ )",
+     "price_text": "ETB 44,999",
+     "model_scope": "exact_model",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "brake_disc",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 brake disc",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__brake_disc.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [
+     "disc"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "brake_disc",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 brake disc",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__brake_disc.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 1,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 1,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Volkswagen Id4 Id6 Brake Pad (የፊት እግር ሸራ )",
+     "price_text": "ETB 44,999",
+     "model_scope": "exact_model",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "cabin_air_filter",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 cabin air filter",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__cabin_air_filter.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [
+     "cabin"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "cabin_air_filter",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 cabin air filter",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__cabin_air_filter.html",
+   "result_status": "0_found",
+   "listing_count_stated": 0,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 0,
+   "pages_available_note": null,
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 0,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "wiper_blade",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 wiper blade",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__wiper_blade.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "wiper_blade",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 wiper blade",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__wiper_blade.html",
+   "result_status": "0_found",
+   "listing_count_stated": 0,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 0,
+   "pages_available_note": null,
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 0,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "headlight",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 headlight",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__headlight.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "headlight",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 headlight",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__headlight.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 66,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 5,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 15,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Volkswagen ID4/ID6 Tail Light ( የዋላ ፊረቻ )",
+     "price_text": "ETB 85,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New Volkswagen ID.4 2022 White",
+     "price_text": "ETB 4,950,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 2024 Blue",
+     "price_text": "ETB 5,850,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New Volkswagen ID.4 2022 White",
+     "price_text": "ETB 4,400,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 Crozz 52 kWh RWD 2022 Blue",
+     "price_text": "ETB 5,400,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 2023 Black",
+     "price_text": "ETB 5,680,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New Volkswagen ID.4 Pro 2024 Blue",
+     "price_text": "ETB 7,400,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 2022",
+     "price_text": "ETB 5,750,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 2024 Gray",
+     "price_text": "ETB 7,200,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 AWD Pro AWD 2023 White",
+     "price_text": "ETB 6,090,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "New Volkswagen ID.4 2023 Gray",
+     "price_text": "ETB 4,900,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 2023 Gray",
+     "price_text": "ETB 5,800,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 2022 Gray",
+     "price_text": "ETB 4,690,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 2022 Gray",
+     "price_text": "ETB 5,800,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    },
+    {
+     "title": "Volkswagen ID.4 2022 Off white",
+     "price_text": "ETB 5,800,000",
+     "model_scope": "exact_model",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "tail_light",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 tail light",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__tail_light.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "tail_light",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 tail light",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__tail_light.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 1,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 1,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [
+    "ETB 85,000"
+   ],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Volkswagen ID4/ID6 Tail Light ( የዋላ ፊረቻ )",
+     "price_text": "ETB 85,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "side_mirror",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 side mirror",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__side_mirror.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "side_mirror",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 side mirror",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__side_mirror.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 2,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 2,
+   "items_naming_exact_model_and_part": 1,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [
+    "ETB 20,000"
+   ],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "ID 4 Left Side Mirror",
+     "price_text": "ETB 20,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Volkswagen ID.6 2025 Blue",
+     "price_text": "ETB 8,976,000",
+     "model_scope": "brand_only",
+     "names_part": false
+    }
+   ]
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "bumper",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 bumper",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__bumper.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "bumper",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 bumper",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__bumper.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 4,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 4,
+   "items_naming_exact_model_and_part": 3,
+   "items_naming_brand_only_and_part": 1,
+   "displayed_prices_exact_model": [
+    "ETB 250,000",
+    "ETB 245,000",
+    "ETB 180,000"
+   ],
+   "displayed_prices_brand_only": [
+    "ETB 240,000"
+   ],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "Volkswagen Id4 Fron Bumper Complete (የፊት ፓራወልት )",
+     "price_text": "ETB 250,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Vw Id4 Original Germany Front Bumper",
+     "price_text": "ETB 245,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "Volkswagen ID6 Front Bumper (የፊት ፓራወልት )",
+     "price_text": "ETB 240,000",
+     "model_scope": "brand_only",
+     "names_part": true
+    },
+    {
+     "title": "ID4 Bunper New Original",
+     "price_text": "ETB 180,000",
+     "model_scope": "exact_model",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "fender_body_panel",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 fender",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__fender_body_panel.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [
+     "fender"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "fender_body_panel",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 fender",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__fender_body_panel.html",
+   "result_status": "results_listed",
+   "listing_count_stated": 1,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 1,
+   "pages_available_note": "derived: stated count / ads shown on page 1",
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 1,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": [
+    {
+     "title": "I'd4/I'd6 Inner Fender",
+     "price_text": "ETB 34,000",
+     "model_scope": "neither",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "shock_absorber",
+   "platform": "Adey Market",
+   "query": "Volkswagen ID.4 shock absorber",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20ID.4%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adey__id4__shock_absorber.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 677,
+   "listing_count_label": "Adey 'total' search hits for the query - includes whole-car listings; NOT a parts count",
+   "adey_counts_stated": {
+    "match": 677,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "cars_electric",
+     "name": "Electric & plug-in hybrid car",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen-id4",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 29,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "shock_absorber",
+   "platform": "Jiji Ethiopia",
+   "query": "Volkswagen ID.4 shock absorber",
+   "source_url": "https://jiji.com.et/search?query=Volkswagen%20ID.4%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/jiji__id4__shock_absorber.html",
+   "result_status": "0_found",
+   "listing_count_stated": 0,
+   "listing_count_label": "Jiji 'Found N ads' for the query (search hits, any model)",
+   "pages_available": 0,
+   "pages_available_note": null,
+   "seller_count_stated": null,
+   "seller_count_note": "Jiji search page does not state a seller count",
+   "items_on_inspected_page": 0,
+   "items_naming_exact_model_and_part": 0,
+   "items_naming_brand_only_and_part": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as displayed)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "brake_pad",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD brake pad",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__brake_pad.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 8,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 2,
+    "possible": 6,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_brake_parts",
+     "name": "Brake parts",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [
+     "pad"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 8,
+   "part_listings_on_inspected_page": 3,
+   "items_naming_exact_model_and_part_listing": 1,
+   "items_naming_brand_only_and_part_listing": 1,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": [
+    {
+     "title": "BYD seagull የኋላ ፍሬን ሸራ(break pad) ማንኛውም የኤሌክትሪክ መኪና መለዋወጫ እኛ ጋር ያገኛሉ መ",
+     "price": null,
+     "currency": "ETB",
+     "section": "match",
+     "type": "car_brake_parts",
+     "category": "vehicle_parts",
+     "shop": "Proud Ev spare parts (@proudev.spare)",
+     "platform": "tiktok",
+     "is_part_listing": true,
+     "record_id": 407684,
+     "model_scope": "exact_model",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "brake_pad",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD brake pad",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__brake_pad.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 8,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 2,
+    "possible": 6,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_brake_parts",
+     "name": "Brake parts",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [
+     "pad"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 8,
+   "part_listings_on_inspected_page": 3,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 2,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "brake_disc",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD brake disc",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__brake_disc.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 8,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 2,
+    "possible": 6,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_brake_parts",
+     "name": "Brake parts",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [
+     "disc"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 8,
+   "part_listings_on_inspected_page": 3,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "brake_disc",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD brake disc",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__brake_disc.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 8,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 2,
+    "possible": 6,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_brake_parts",
+     "name": "Brake parts",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [
+     "disc"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 8,
+   "part_listings_on_inspected_page": 3,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "cabin_air_filter",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD cabin air filter",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__cabin_air_filter.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 1,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 1,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_filters",
+     "name": "Filters (oil, air, fuel, cabin)",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [
+     "cabin"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 1,
+   "items_on_inspected_page": 1,
+   "part_listings_on_inspected_page": 1,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "cabin_air_filter",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD cabin air filter",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__cabin_air_filter.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 1,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 1,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_filters",
+     "name": "Filters (oil, air, fuel, cabin)",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [
+     "cabin"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 1,
+   "items_on_inspected_page": 1,
+   "part_listings_on_inspected_page": 1,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "wiper_blade",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD wiper blade",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__wiper_blade.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 6,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 5,
+    "possible": 1,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 6,
+   "part_listings_on_inspected_page": 6,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "wiper_blade",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD wiper blade",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__wiper_blade.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 6,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 5,
+    "possible": 1,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 6,
+   "part_listings_on_inspected_page": 6,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "headlight",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD headlight",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__headlight.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 5,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 0,
+    "possible": 5,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_lights",
+     "name": "Headlights & car lights",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 1,
+   "items_on_inspected_page": 5,
+   "part_listings_on_inspected_page": 1,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "headlight",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD headlight",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__headlight.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 5,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 0,
+    "possible": 5,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_lights",
+     "name": "Headlights & car lights",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 1,
+   "items_on_inspected_page": 5,
+   "part_listings_on_inspected_page": 1,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "tail_light",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD tail light",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__tail_light.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 5,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 0,
+    "possible": 5,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_lights",
+     "name": "Headlights & car lights",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 1,
+   "items_on_inspected_page": 5,
+   "part_listings_on_inspected_page": 1,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "tail_light",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD tail light",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__tail_light.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 5,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 0,
+    "possible": 5,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_lights",
+     "name": "Headlights & car lights",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 1,
+   "items_on_inspected_page": 5,
+   "part_listings_on_inspected_page": 1,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "side_mirror",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD side mirror",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__side_mirror.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 6,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 5,
+    "possible": 1,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 6,
+   "part_listings_on_inspected_page": 6,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "side_mirror",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD side mirror",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__side_mirror.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 6,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 5,
+    "possible": 1,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 6,
+   "part_listings_on_inspected_page": 6,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "bumper",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD bumper",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__bumper.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 6,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 5,
+    "possible": 1,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 6,
+   "part_listings_on_inspected_page": 6,
+   "items_naming_exact_model_and_part_listing": 4,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": [
+    {
+     "title": "Byd seagull rear middle bumper ማንኛውም የኤሌክትሪክ መኪና መለዋወጫ እኛ ጋር ያገኛሉ ዜሮ9አ",
+     "price": null,
+     "currency": "ETB",
+     "section": "match",
+     "type": "car_body_parts",
+     "category": "vehicle_parts",
+     "shop": "Proud Ev spare parts (@proudev.spare)",
+     "platform": "tiktok",
+     "is_part_listing": true,
+     "record_id": 407672,
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "BYD seagull front bumper trim panel R/L ማንኛውም የኤሌክትሪክ መኪና መለዋወጫ እኛ ጋር ",
+     "price": null,
+     "currency": "ETB",
+     "section": "match",
+     "type": "car_body_parts",
+     "category": "vehicle_parts",
+     "shop": "Proud Ev spare parts (@proudev.spare)",
+     "platform": "tiktok",
+     "is_part_listing": true,
+     "record_id": 407674,
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "BYD seagull Front bumper bracket R/L ማንኛውም የኤሌክትሪክ መኪና መለዋወጫ እኛ ጋር ያገኛ",
+     "price": null,
+     "currency": "ETB",
+     "section": "match",
+     "type": "car_body_parts",
+     "category": "vehicle_parts",
+     "shop": "Proud Ev spare parts (@proudev.spare)",
+     "platform": "tiktok",
+     "is_part_listing": true,
+     "record_id": 407675,
+     "model_scope": "exact_model",
+     "names_part": true
+    },
+    {
+     "title": "BYD seagull rear bumper Bracket R/L ማንኛውም የኤሌክትሪክ መኪና መለዋወጫ እኛ ጋር ያገኛሉ",
+     "price": null,
+     "currency": "ETB",
+     "section": "match",
+     "type": "car_body_parts",
+     "category": "vehicle_parts",
+     "shop": "Proud Ev spare parts (@proudev.spare)",
+     "platform": "tiktok",
+     "is_part_listing": true,
+     "record_id": 407678,
+     "model_scope": "exact_model",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "bumper",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD bumper",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__bumper.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 6,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 5,
+    "possible": 1,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 2,
+   "items_on_inspected_page": 6,
+   "part_listings_on_inspected_page": 6,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 4,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "fender_body_panel",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD fender",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__fender_body_panel.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 269,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 264,
+    "possible": 5,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": null,
+    "category": "cars",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [
+     "fender"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 12,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "fender_body_panel",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD fender",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__fender_body_panel.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 269,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 264,
+    "possible": 5,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": null,
+    "category": "cars",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [
+     "fender"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 12,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "seagull",
+   "part_category": "shock_absorber",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD shock absorber",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__shock_absorber.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 3,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 3,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_suspension_steering",
+     "name": "Suspension & steering parts",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 3,
+   "items_on_inspected_page": 3,
+   "part_listings_on_inspected_page": 3,
+   "items_naming_exact_model_and_part_listing": 1,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": [
+    {
+     "title": "Byd seagull rear shock absorber(አሞርዝራተር) ማንኛውም የኤሌክትሪክ መኪና መለዋወጫ እኛ ጋር",
+     "price": null,
+     "currency": "ETB",
+     "section": "match",
+     "type": "car_suspension_steering",
+     "category": "vehicle_parts",
+     "shop": "Proud Ev spare parts (@proudev.spare)",
+     "platform": "tiktok",
+     "is_part_listing": true,
+     "record_id": 407681,
+     "model_scope": "exact_model",
+     "names_part": true
+    }
+   ]
+  },
+  {
+   "vehicle_id": "yuan_up",
+   "part_category": "shock_absorber",
+   "platform": "Adey Market (brand-level query)",
+   "query": "BYD shock absorber",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=BYD%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__byd__shock_absorber.json",
+   "result_status": "results_listed",
+   "listing_count_stated": 3,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 3,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_suspension_steering",
+     "name": "Suspension & steering parts",
+     "category": "vehicle_parts"
+    },
+    "category": "vehicle_parts",
+    "identity": null,
+    "brand": "BYD",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 1,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 3,
+   "items_on_inspected_page": 3,
+   "part_listings_on_inspected_page": 3,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 1,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "brake_pad",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen brake pad",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20brake%20pad",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__brake_pad.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_brake_parts",
+     "name": "Brake parts",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [
+     "pad"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "brake_disc",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen brake disc",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20brake%20disc",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__brake_disc.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_brake_parts",
+     "name": "Brake parts",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [
+     "disc"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "cabin_air_filter",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen cabin air filter",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20cabin%20air%20filter",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__cabin_air_filter.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_filters",
+     "name": "Filters (oil, air, fuel, cabin)",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [
+     "cabin"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "wiper_blade",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen wiper blade",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20wiper%20blade",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__wiper_blade.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "headlight",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen headlight",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20headlight",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__headlight.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_lights",
+     "name": "Headlights & car lights",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "tail_light",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen tail light",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20tail%20light",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__tail_light.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_lights",
+     "name": "Headlights & car lights",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "side_mirror",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen side mirror",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20side%20mirror",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__side_mirror.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "bumper",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen bumper",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20bumper",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__bumper.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_body_parts",
+     "name": "Body parts, glass & mirrors",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "fender_body_panel",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen fender",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20fender",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__fender_body_panel.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 1492,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 1436,
+    "possible": 56,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": null,
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [
+     "fender"
+    ],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 63,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "id4",
+   "part_category": "shock_absorber",
+   "platform": "Adey Market (brand-level query)",
+   "query": "Volkswagen shock absorber",
+   "source_url": "https://adey-market.com/api/backend/public/search?q=Volkswagen%20shock%20absorber",
+   "http_status": 200,
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "raw_file": "raw/ethiopia_search_2026-11-16/adeybrand__volkswagen__shock_absorber.json",
+   "result_status": "0_part_listings_on_inspected_page",
+   "listing_count_stated": 155,
+   "listing_count_label": "Adey 'total' hits for the brand-level query (all models of the brand; may include cars)",
+   "adey_counts_stated": {
+    "match": 155,
+    "possible": 0,
+    "alternative": 0
+   },
+   "adey_query_understood_as": {
+    "type": {
+     "id": "car_suspension_steering",
+     "name": "Suspension & steering parts",
+     "category": "cars"
+    },
+    "category": "cars",
+    "identity": "volkswagen",
+    "brand": "Volkswagen",
+    "preferred": [],
+    "constraints": [],
+    "price": null
+   },
+   "pages_available": 7,
+   "pages_available_note": "derived: stated total / stated page_size",
+   "seller_count_stated": null,
+   "seller_count_note": "not stated; distinct shops below are derived from page 1 part listings",
+   "distinct_shops_part_listings_page1": 0,
+   "items_on_inspected_page": 24,
+   "part_listings_on_inspected_page": 0,
+   "items_naming_exact_model_and_part_listing": 0,
+   "items_naming_brand_only_and_part_listing": 0,
+   "displayed_prices_exact_model": [],
+   "displayed_prices_brand_only": [],
+   "price_currency": "ETB (as returned)",
+   "listings": []
+  },
+  {
+   "vehicle_id": "all",
+   "part_category": "all",
+   "platform": "Gezat",
+   "query": null,
+   "source_url": "https://gezat.et/",
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "result_status": "not_searchable_for_parts",
+   "listing_count_stated": null,
+   "note": "Not searchable for parts: site is a vehicle marketplace (EV listings at ev.gezat.et); no spare-parts category or parts search found on the home page. Not inspected per combination."
+  },
+  {
+   "vehicle_id": "all",
+   "part_category": "all",
+   "platform": "Golden Car Market",
+   "query": null,
+   "source_url": "https://www.goldencarmarket.net/",
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "result_status": "not_searchable_for_parts",
+   "listing_count_stated": null,
+   "note": "JavaScript single-page app (6 KB HTML shell); listings are vehicle listings; no server-rendered parts search. Not inspected per combination."
+  },
+  {
+   "vehicle_id": "all",
+   "part_category": "all",
+   "platform": "Mekina.net",
+   "query": null,
+   "source_url": "https://www.mekina.net/",
+   "collection_date": "2026-11-16",
+   "pages_inspected": 1,
+   "result_status": "not_searchable_for_parts",
+   "listing_count_stated": null,
+   "note": "Car listings with a car search (/cars/search); parts appear only as a business directory (/directory/auto-parts-accessories), not as part listings with prices. Not inspected per combination."
+  }
+ ]
+}

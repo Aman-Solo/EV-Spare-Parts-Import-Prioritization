@@ -1,0 +1,885 @@
+{
+ "collection_date": "2026-11-16",
+ "batch": "vehicle_failure_evidence_07",
+ "source": "NHTSA public APIs (api.nhtsa.gov), no key required",
+ "counting_rules": "* A complaint is counted once (unique odiNumber), even if it appears in several model-year responses.\n* primary count  = complaints whose NHTSA `components` field contains a mapped component.\n  NHTSA components are coarse, so one component can map to several of our categories\n  (e.g. SERVICE BRAKES -> brake_pad AND brake_disc). Those counts are marked shared=True and must\n  not be summed across categories.\n* keyword count = complaints whose free-text summary mentions a category keyword. Secondary,\n  supporting signal only (a mention is not a confirmed failure of that part).\n* Seagull and Yuan Up: not sold in the US, so no NHTSA data. No other vehicle is substituted.",
+ "component_mapping": [
+  {
+   "nhtsa_component": "SERVICE BRAKES",
+   "categories": [
+    "brake_pad",
+    "brake_disc"
+   ],
+   "note": "Covers pads, rotors, calipers, ABS hydraulics etc.; cannot be split by component code."
+  },
+  {
+   "nhtsa_component": "EXTERIOR LIGHTING",
+   "categories": [
+    "headlight",
+    "tail_light"
+   ],
+   "note": "Covers all exterior lamps; recalls give sub-component (e.g. HEADLIGHTS)."
+  },
+  {
+   "nhtsa_component": "VISIBILITY/WIPER",
+   "categories": [
+    "wiper_blade"
+   ],
+   "note": "Covers wiper motor/arms/washer and blades."
+  },
+  {
+   "nhtsa_component": "VISIBILITY",
+   "categories": [
+    "wiper_blade",
+    "side_mirror"
+   ],
+   "note": "Covers glass, defrost, mirrors and wipers."
+  },
+  {
+   "nhtsa_component": "SUSPENSION",
+   "categories": [
+    "shock_absorber"
+   ],
+   "note": "Covers springs, control arms, struts and shock absorbers."
+  },
+  {
+   "nhtsa_component": "STRUCTURE",
+   "categories": [
+    "bumper",
+    "fender_body_panel"
+   ],
+   "note": "Covers body, doors, hood, frame; bumper/fender not separable."
+  }
+ ],
+ "recalls": [
+  {
+   "campaign": "21V413000",
+   "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+   "model_years_queried": [
+    "2021"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021 ID.4 vehicles.  Caps were installed on the headlight vertical aim instead of the horizontal aim, allowing for horizontal adjustment of the headlight beam.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \"Lamps, Reflective Devices, and Associated Equipment.\""
+  },
+  {
+   "campaign": "21V606000",
+   "component": "SEAT BELTS:REAR/OTHER:RETRACTOR",
+   "model_years_queried": [
+    "2021"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021 Volkswagen ID4, Audi A4 Allroad, A4 Sedan, A5 Cabriolet, A5 Coupe, A5 Sportback, A6 Allroad, A6 Sedan, A7, A8, E-Tron Quattro, E-Tron Sportback Quattro, Q3, Q5, Q5 Sportback, Q7, Q8, RS5 Sportback, RS5 Coupe, RS6 Avant, RS7, RSQ8, S4 Sedan, S5 Cabriolet, S5 Coupe, S5 Sportback, S6 Sedan, S7, S8, SQ5, SQ5 Sportback, SQ7, SQ8, "
+  },
+  {
+   "campaign": "21V607000",
+   "component": "SEAT BELTS:REAR/OTHER:RETRACTOR",
+   "model_years_queried": [
+    "2021"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021 ID4 vehicles.  Incorrect rear outboard seat belt assemblies without an automatic locking retractor (ALR) function may have been installed, which can prevent the child restraint system from securing properly.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occ"
+  },
+  {
+   "campaign": "21V852000",
+   "component": "STEERING:GEAR BOX (OTHER THAN RACK AND PINION)",
+   "model_years_queried": [
+    "2021"
+   ],
+   "summary": "Volkswagen Group of American, Inc. (Volkswagen) is recalling one 2021 ID.4 vehicle.  The steering gear may have an incorrectly assembled or missing drive bushing."
+  },
+  {
+   "campaign": "22V162000",
+   "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+   "model_years_queried": [
+    "2021"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021 ID4 vehicles.  Incorrect soldering of the flexible printed circuit assembled (FPCA), inside the high voltage (HV) battery, may cause an unreliable connection."
+  },
+  {
+   "campaign": "22V764000",
+   "component": "BACK OVER PREVENTION:SOFTWARE",
+   "model_years_queried": [
+    "2022"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2022 ID4 vehicles.  The rearview camera image may be delayed or deactivated.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\""
+  },
+  {
+   "campaign": "22V823000",
+   "component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+   "model_years_queried": [
+    "2022",
+    "2023"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2022 Golf R A8, Audi S3, RS3 Sedan, Q4 E-Tron SUV, A3 Sedan, and 2022-2023 Volkswagen Golf GTI, and ID4 vehicles.  The rearview camera image may be blank or unresponsive when the vehicle is placed in reverse gear or when the park function is manually activated.  As such, these vehicles fail to comply with the requirements of Feder"
+  },
+  {
+   "campaign": "22V830000",
+   "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION MOTOR",
+   "model_years_queried": [
+    "2023"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023 ID4 vehicles.  The electric motor sealing ring was improperly assembled, which may allow coolant to leak into the high-voltage system and interfere with the CAN communication and power supply."
+  },
+  {
+   "campaign": "22V858000",
+   "component": "AIR BAGS:FRONTAL",
+   "model_years_queried": [
+    "2021"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021 ID4 vehicles.  The passenger air bag may be incorrectly folded.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection.\""
+  },
+  {
+   "campaign": "22V956000",
+   "component": "ELECTRICAL SYSTEM:12V/24V/48V BATTERY:CABLES",
+   "model_years_queried": [
+    "2023"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023 ID4 rear-wheel drive vehicles.  The 12-Volt battery charging cable may contact the steering column shaft and cause the cable insulation to wear, possibly resulting in a short circuit."
+  },
+  {
+   "campaign": "23V040000",
+   "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY:MANAGEMENT SYSTEM/ENERGY CONTROL MODULE (BMS/BECM):SOFTWARE",
+   "model_years_queried": [
+    "2021"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021 ID.4 vehicles.  Software programing may cause the high voltage (HV) battery management control module to restart or the pulse inverter to deactivate."
+  },
+  {
+   "campaign": "23V312000",
+   "component": "STRUCTURE:BODY:DOOR:HANDLE:EXTERIOR",
+   "model_years_queried": [
+    "2021",
+    "2022"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021-2022 ID.4 vehicles.  The affected vehicles may have been manufactured with door handles that allow water to enter the circuit board assembly, which can cause the doors to open unexpectedly when the vehicle is subject to high lateral forces at speeds below 9 mph/15 kmh."
+  },
+  {
+   "campaign": "23V436000",
+   "component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+   "model_years_queried": [
+    "2022"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2022 ID.4 vehicles.  The replacement infotainment central control unit (CCU) installed in the vehicle during a repair contains incorrect software that can cause the rearview camera image to be delayed or deactivated when reversing.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standa"
+  },
+  {
+   "campaign": "23V750000",
+   "component": "STRUCTURE",
+   "model_years_queried": [
+    "2023",
+    "2024"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2024 ID.4 vehicles.  The interior sunshade for the panoramic glass roof may be insufficiently fire retardant.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 302, \"Flammability of Interior Materials.\""
+  },
+  {
+   "campaign": "24V344000",
+   "component": "BACK OVER PREVENTION:SOFTWARE",
+   "model_years_queried": [
+    "2021",
+    "2022",
+    "2023"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (VW) is recalling certain 2021-2023 ID.4 vehicles.  Due to a software issue, affected vehicles may experience center displays and instrument panel displays that do not boot, or that sporadically reset.  This can result in loss of speedometer information or loss of rearview camera image.  As such, these vehicles fail to comply with the requirements of Federal Motor"
+  },
+  {
+   "campaign": "24V643000",
+   "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+   "model_years_queried": [
+    "2023",
+    "2024"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (VW) is recalling certain 2023-2024 ID4 vehicles.  The fasteners securing the passenger frontal air bag inflator may be loose."
+  },
+  {
+   "campaign": "24V651000",
+   "component": "STRUCTURE:BODY:DOOR:HANDLE:EXTERIOR",
+   "model_years_queried": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021-2024 ID.4 vehicles.  The door handles may allow water to enter the circuit board assembly, which can cause the doors to open unexpectedly."
+  },
+  {
+   "campaign": "24V875000",
+   "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+   "model_years_queried": [
+    "2023"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023 ID.4 vehicles.  The rearview camera image may not display when the vehicle is placed in reverse or when the park function is manually activated.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\""
+  },
+  {
+   "campaign": "25V120000",
+   "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:GEAR POSITION INDICATION (PRNDL)",
+   "model_years_queried": [
+    "2021",
+    "2022",
+    "2023"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021-2023 ID.4, 2022-2023 Audi Q4 e-Tron, and Q4 e-Tron Sportback vehicles. The instrument panel may not properly display the transmission gear lever indicator.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 102, \"Transmission Shift Lever Sequence, Starter Interlock, a"
+  },
+  {
+   "campaign": "25V125000",
+   "component": "ELECTRICAL SYSTEM:12V/24V/48V BATTERY",
+   "model_years_queried": [
+    "2024"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2024-2025 AUDI Q4 E-Tron SUV, AUDI Q4 E-Tron Sportback, and 2024 ID.4 vehicles.  The on-board charger (OCDC) may fail and stop charging the 12-volt battery, which can result in a loss of drive power."
+  },
+  {
+   "campaign": "25V434000",
+   "component": "SERVICE BRAKES",
+   "model_years_queried": [
+    "2023",
+    "2024"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2025 Atlas, Atlas Cross Sport and 2023-2024 ID.4 vehicles. Certain bolts on the chassis, brake system and/or suspension (such as bolts for certain  cross member, engine mount, control arm, subframe, rear brake carrier, etc.) of affected vehicles may not have been correctly tightened during the manufacturing process."
+  },
+  {
+   "campaign": "25V835000",
+   "component": "WHEELS:LUGS/NUTS/BOLTS/STUDS",
+   "model_years_queried": [
+    "2026"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2026 Atlas, Atlas Cross Sport, and ID.4 vehicles. The incorrect wheel bolts may have been installed during vehicle manufacturing."
+  },
+  {
+   "campaign": "25V836000",
+   "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+   "model_years_queried": [
+    "2023",
+    "2024"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2024 ID.4 vehicles. The high voltage (HV) battery cell modules may contain misaligned electrodes that can result in a battery fire."
+  },
+  {
+   "campaign": "26V028000",
+   "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+   "model_years_queried": [
+    "2023",
+    "2024"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2024 ID.4 vehicles. The high voltage (HV) battery cell modules may contain misaligned electrodes that can result in a battery fire."
+  },
+  {
+   "campaign": "26V030000",
+   "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+   "model_years_queried": [
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2025 ID.4 vehicles. The high-voltage battery may overheat."
+  },
+  {
+   "campaign": "26V630000",
+   "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+   "model_years_queried": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2026 ID.4 vehicles. The high voltage battery may fail and lead to a vehicle fire."
+  }
+ ],
+ "records": [
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "brake_pad",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "SERVICE BRAKES",
+   "complaint_count_component": 99,
+   "complaint_count_component_note": "Shared with other categories mapped to the same NHTSA component; do not sum across categories. ",
+   "complaint_count_keyword": 3,
+   "complaint_keyword_regex": "brake pad|pads\\b",
+   "recall_campaigns": "25V434000",
+   "recall_count": 1,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "brake_disc",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "SERVICE BRAKES",
+   "complaint_count_component": 99,
+   "complaint_count_component_note": "Shared with other categories mapped to the same NHTSA component; do not sum across categories. ",
+   "complaint_count_keyword": 1,
+   "complaint_keyword_regex": "rotor|brake disc",
+   "recall_campaigns": "25V434000",
+   "recall_count": 1,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "cabin_air_filter",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "No NHTSA component covers cabin air filters; keyword count only.",
+   "complaint_count_keyword": 0,
+   "complaint_keyword_regex": "cabin (air )?filter|air filter",
+   "recall_campaigns": null,
+   "recall_count": 0,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "wiper_blade",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "VISIBILITY; VISIBILITY/WIPER",
+   "complaint_count_component": 38,
+   "complaint_count_component_note": "Shared with other categories mapped to the same NHTSA component; do not sum across categories. ",
+   "complaint_count_keyword": 7,
+   "complaint_keyword_regex": "wiper",
+   "recall_campaigns": null,
+   "recall_count": 0,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "headlight",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "EXTERIOR LIGHTING",
+   "complaint_count_component": 34,
+   "complaint_count_component_note": "Shared with other categories mapped to the same NHTSA component; do not sum across categories. ",
+   "complaint_count_keyword": 17,
+   "complaint_keyword_regex": "headlight|head light|headlamp",
+   "recall_campaigns": "21V413000",
+   "recall_count": 1,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "tail_light",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "EXTERIOR LIGHTING",
+   "complaint_count_component": 34,
+   "complaint_count_component_note": "Shared with other categories mapped to the same NHTSA component; do not sum across categories. ",
+   "complaint_count_keyword": 3,
+   "complaint_keyword_regex": "tail ?light|tail ?lamp|rear light",
+   "recall_campaigns": null,
+   "recall_count": 0,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "side_mirror",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "VISIBILITY",
+   "complaint_count_component": 4,
+   "complaint_count_component_note": "Shared with other categories mapped to the same NHTSA component; do not sum across categories. ",
+   "complaint_count_keyword": 6,
+   "complaint_keyword_regex": "side mirror|side-view mirror|sideview mirror|wing mirror|outside mirror|mirror",
+   "recall_campaigns": null,
+   "recall_count": 0,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "bumper",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "STRUCTURE",
+   "complaint_count_component": 120,
+   "complaint_count_component_note": "Shared with other categories mapped to the same NHTSA component; do not sum across categories. ",
+   "complaint_count_keyword": 9,
+   "complaint_keyword_regex": "bumper",
+   "recall_campaigns": null,
+   "recall_count": 0,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "fender_body_panel",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "STRUCTURE",
+   "complaint_count_component": 120,
+   "complaint_count_component_note": "Shared with other categories mapped to the same NHTSA component; do not sum across categories. ",
+   "complaint_count_keyword": 3,
+   "complaint_keyword_regex": "fender|quarter panel",
+   "recall_campaigns": null,
+   "recall_count": 0,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "Volkswagen",
+   "vehicle_model": "ID.4",
+   "vehicle_id": "id4",
+   "part_category": "shock_absorber",
+   "nhtsa_data_available": true,
+   "model_years_queried": "2021-2026",
+   "nhtsa_components_mapped": "SUSPENSION",
+   "complaint_count_component": 9,
+   "complaint_count_component_note": null,
+   "complaint_count_keyword": 6,
+   "complaint_keyword_regex": "shock absorber|\\bshocks?\\b|\\bstruts?\\b",
+   "recall_campaigns": null,
+   "recall_count": 0,
+   "total_unique_complaints_vehicle": 1040,
+   "source_url_complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "source_url_recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=VOLKSWAGEN&model=ID.4&modelYear={2021..2026}",
+   "collection_date": "2026-11-16",
+   "caveat": "US complaints are self-reported to NHTSA and unverified; they reflect US use conditions, not Ethiopia, and are not failure rates."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "brake_pad",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "brake_disc",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "cabin_air_filter",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "wiper_blade",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "headlight",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "tail_light",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "side_mirror",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "bumper",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "fender_body_panel",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Seagull",
+   "vehicle_id": "seagull",
+   "part_category": "shock_absorber",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "brake_pad",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "brake_disc",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "cabin_air_filter",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "wiper_blade",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "headlight",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "tail_light",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "side_mirror",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "bumper",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "fender_body_panel",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  },
+  {
+   "vehicle_manufacturer": "BYD",
+   "vehicle_model": "Yuan Up",
+   "vehicle_id": "yuan_up",
+   "part_category": "shock_absorber",
+   "nhtsa_data_available": false,
+   "model_years_queried": null,
+   "nhtsa_components_mapped": null,
+   "complaint_count_component": null,
+   "complaint_count_component_note": "no NHTSA data - not sold in US",
+   "complaint_count_keyword": null,
+   "complaint_keyword_regex": null,
+   "recall_campaigns": null,
+   "recall_count": null,
+   "total_unique_complaints_vehicle": null,
+   "source_url_complaints": null,
+   "source_url_recalls": null,
+   "collection_date": "2026-11-16",
+   "caveat": "no NHTSA data - not sold in US. No substitute vehicle used."
+  }
+ ]
+}

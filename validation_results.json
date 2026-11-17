@@ -1,0 +1,397 @@
+{
+  "build_utc": "2026-11-16 20:11 UTC",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "summary": {
+    "PASSED": 59,
+    "NOT VERIFIED": 4
+  },
+  "baseline_hashes_created_this_run": false,
+  "raw_file_sha256": {
+    "vehicle_visibility_batch_01.json": "3e0306186dfb2c099d9f4e1920a0f50110c8d71f717bab68c7e332d2c00f0ead",
+    "vehicle_model_evidence_batch_02.json": "9bc349cac56b8a557372dec07aa2acfdd98df0af3d75ea32e656d95ecf138ee2",
+    "vehicle_selection_investigation_batch_03.json": "33302e0b6c6fedb08abcb31406b287ccb54ff983649deb7dd257577633a72214",
+    "vehicle_part_evidence_batch_04.json": "bf73c44ee5e5a01c5e3a0d9e09074077ff69b4533159bd15e814ed4b45e36271",
+    "source_log_original.csv": "89a13c0fd8f53b1d8b1a3dc89a9c8a2b3d9a3f67b63bbc616bcf20541d9fb331"
+  },
+  "checks": [
+    {
+      "id": "A1",
+      "check": "Exactly 3 vehicles",
+      "status": "PASSED",
+      "detail": "id4, seagull, yuan_up"
+    },
+    {
+      "id": "A2",
+      "check": "Exactly 10 categories, each present for every vehicle",
+      "status": "PASSED",
+      "detail": "10 categories; rows per vehicle {'seagull': 10, 'yuan_up': 10, 'id4': 10}"
+    },
+    {
+      "id": "A3",
+      "check": "30 unique vehicle-category combinations; none missing, none duplicated",
+      "status": "PASSED",
+      "detail": "30 combinations"
+    },
+    {
+      "id": "A4",
+      "check": "Row counts: raw CSV / cleaned CSV / cleaned JSON / Batch 04 raw",
+      "status": "PASSED",
+      "detail": "30 / 30 / 30 / 30"
+    },
+    {
+      "id": "B1",
+      "check": "record_id unique (cleaned)",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "B2",
+      "check": "observation_id unique (product observations)",
+      "status": "PASSED",
+      "detail": "5 observations"
+    },
+    {
+      "id": "B3",
+      "check": "market_record_id unique (vehicle market)",
+      "status": "PASSED",
+      "detail": "27 rows"
+    },
+    {
+      "id": "B4",
+      "check": "Raw CSV and cleaned CSV share the same 30 record_ids",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "B5",
+      "check": "cleaned CSV == cleaned JSON (all fields, typed)",
+      "status": "PASSED",
+      "detail": "0 mismatching cells"
+    },
+    {
+      "id": "B6",
+      "check": "product observations CSV == JSON",
+      "status": "PASSED",
+      "detail": "0 mismatching cells"
+    },
+    {
+      "id": "B7",
+      "check": "vehicle market CSV == JSON",
+      "status": "PASSED",
+      "detail": "0 mismatching cells"
+    },
+    {
+      "id": "C1",
+      "check": "Every cleaned record resolves to its raw Batch 04/05 record (vehicle, category, URL, date identical)",
+      "status": "PASSED",
+      "detail": "0 failures"
+    },
+    {
+      "id": "C2",
+      "check": "Every record with a source carries source_url and collection_date",
+      "status": "PASSED",
+      "detail": "22 sourced records"
+    },
+    {
+      "id": "C3",
+      "check": "Every sourced part record maps to a source_log row (source_id)",
+      "status": "PASSED",
+      "detail": "all mapped"
+    },
+    {
+      "id": "C4",
+      "check": "Every vehicle-market record maps to a source_log row",
+      "status": "PASSED",
+      "detail": "all mapped"
+    },
+    {
+      "id": "C5",
+      "check": "source_log: all 29 original rows and original column values preserved (additions appended after them)",
+      "status": "PASSED",
+      "detail": "136 rows"
+    },
+    {
+      "id": "C6",
+      "check": "Raw batch files byte-identical to the version used for the earlier datasets",
+      "status": "NOT VERIFIED",
+      "detail": "No hash manifest existed before this build, so equality with the earlier version cannot be proven. Files were byte-copied from the supplied uploads (verified with cmp) and are hashed in raw_file_hashes.csv."
+    },
+    {
+      "id": "C6b",
+      "check": "Raw batch files unchanged since baseline hashes were first recorded",
+      "status": "PASSED",
+      "detail": "SHA-256 of all 5 raw files compared with raw_file_hashes_baseline.csv"
+    },
+    {
+      "id": "C6c",
+      "check": "Batches 05-07 unchanged since their baseline",
+      "status": "PASSED",
+      "detail": "SHA-256 of 3 new raw batch files compared with raw_file_hashes_baseline_b05_b07.csv"
+    },
+    {
+      "id": "D1",
+      "check": "No part number exists that is not in the raw batches (04, 05)",
+      "status": "PASSED",
+      "detail": "0 unknown numbers"
+    },
+    {
+      "id": "D2",
+      "check": "Every price equals a price stated in the raw batch (no invented prices)",
+      "status": "PASSED",
+      "detail": "0 unmatched"
+    },
+    {
+      "id": "D3",
+      "check": "No price is zero, and every price has a currency",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "D4",
+      "check": "Prices are numeric (typed float) in CSV and JSON",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "D5",
+      "check": "No currency conversion performed (all currencies original)",
+      "status": "PASSED",
+      "detail": "part prices in original USD/EUR/CNY/AED only; no ETB conversion of part prices; Ethiopian ETB prices live only in et_displayed_prices_etb"
+    },
+    {
+      "id": "D6",
+      "check": "Confidence changes are exactly the documented set and each has a note",
+      "status": "PASSED",
+      "detail": "changes: [('id4__fender_body_panel', 'medium', 'low')]"
+    },
+    {
+      "id": "D7",
+      "check": "No confidence level was raised",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "D8",
+      "check": "ethiopian_availability uses only allowed values and agrees with Batch 06 listing counts (exact-model listings <=> listing_observed_exact_model)",
+      "status": "PASSED",
+      "detail": "{'listing_observed_exact_model': 14, 'not_found_on_sources_inspected': 12, 'listing_observed_brand_only': 4}"
+    },
+    {
+      "id": "D9",
+      "check": "Missing values stay null: rows without a source have no part number, price or description",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "D10",
+      "check": "Dimensions not conflated: no 'New' mapped to stock; condition separate from sourcing",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "D11",
+      "check": "Rows without a part record have sourcing_availability = no_part_record",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E1",
+      "check": "ID.4 fender flare: related_part_found, low, flare note, not a complete panel",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E2",
+      "check": "ID.4 tail light & side mirror: category_context_only, low, no part number/price",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E3",
+      "check": "ID.4 brake pad: low, supplier_unavailable, found record, USD 60.95 kept, not orderable",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E4",
+      "check": "ID.4 wipers: 2 separate observations, own sizes/part numbers/EUR prices, no average",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E5",
+      "check": "ID.4 wiper model_year not asserted from catalogue context",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E6",
+      "check": "All 7 Yuan Up found records are catalogue_model_context_only (no individual fitment confirmation)",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E7",
+      "check": "Fender flare: single price not assigned to either product",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E7b",
+      "check": "Cleaned wiper and fender-flare rows carry no primary price and point to the child table",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "E8",
+      "check": "No empty calculated/converted price columns exist",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "F1",
+      "check": "Vehicle model labels normalised (one label per vehicle_id)",
+      "status": "PASSED",
+      "detail": "{'Yuan Up': 5, 'bZ series (grouped: bZ4X, bZ3, bZ3X, bZ5)': 2, 'Seagull': 5, 'bZ4X': 5, 'ID.4': 4, 'BenBen E-Star': 6}"
+    },
+    {
+      "id": "F2",
+      "check": "Category counts present as numbers: Seagull 764, Yuan Up 1362, ID.4 102, BenBen 279",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "F3",
+      "check": "Pages available vs inspected recorded separately (32/57/5/12 vs 1)",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "F4",
+      "check": "Grouped Toyota bZ-series 1,021 is flagged grouped and not attributed to bZ4X",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "F5",
+      "check": "Platform-reported typical price kept distinct; no calculated averages/medians",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "F6",
+      "check": "Only the 3 study vehicles are flagged selected_vehicle",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "F7",
+      "check": "UAE/international catalogue rows are not labelled as Ethiopian evidence",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "G1",
+      "check": "URL syntax: http(s), host present, no whitespace, no backslashes (all part, product, market and source-log URLs)",
+      "status": "PASSED",
+      "detail": "132 distinct URLs checked; invalid: []"
+    },
+    {
+      "id": "G2",
+      "check": "No backslash escaping in any output file (https\\:// or www\\.)",
+      "status": "PASSED",
+      "detail": "0 hits in 8 files"
+    },
+    {
+      "id": "G3",
+      "check": "Outputs are UTF-8 without BOM; JSON loads with plain utf-8 json.load",
+      "status": "PASSED",
+      "detail": "no BOM; json.load OK"
+    },
+    {
+      "id": "G4",
+      "check": "URL accessibility (pages reachable now)",
+      "status": "NOT VERIFIED",
+      "detail": "Syntax only in this build (no network). A 12-URL spot-check on 2026-11-16 found 9 x HTTP 200 and 3 x 403 (AUTODOC FR/UK, parts.vw.com); see verification_stage4.md."
+    },
+    {
+      "id": "G5",
+      "check": "Product-level wiper pairing vs the live AUTODOC page",
+      "status": "NOT VERIFIED",
+      "detail": "Pairing follows listing order inside the raw record (price_pairing_status = order_inferred_from_raw_record). Re-check attempted 2026-11-16: AUTODOC returned HTTP 403 (bot protection); the user's manual browser check did not confirm the pairing either, so it stays order-inferred."
+    },
+    {
+      "id": "G6",
+      "check": "Source-provided evidence IDs for Batch 04 records",
+      "status": "NOT VERIFIED",
+      "detail": "Batch 04 supplies none (record_id is the derived key). Not applicable rather than failed."
+    },
+    {
+      "id": "G7",
+      "check": "No duplicate source URL within the same batch in source_log (re-visits in a later batch are logged as new rows)",
+      "status": "PASSED",
+      "detail": "136 rows, 130 distinct URLs, 136 distinct (url, batch) pairs"
+    },
+    {
+      "id": "I1",
+      "check": "Batch 05 addresses exactly the 16 target rows, each with the URLs checked",
+      "status": "PASSED",
+      "detail": "16 rows; overlaid: 6"
+    },
+    {
+      "id": "I2",
+      "check": "Batch 05 not_found rows carry no part number, price or description",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "I3",
+      "check": "Every Batch 05 price has its original currency and verbatim price text",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "I4",
+      "check": "Batch 06 covers all 30 combinations on Jiji (one query each)",
+      "status": "PASSED",
+      "detail": "30 Jiji records"
+    },
+    {
+      "id": "I5",
+      "check": "No NHTSA data attached to Seagull or Yuan Up",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "I6",
+      "check": "ID.4 NHTSA fields present for all 10 categories (null only where no NHTSA component maps)",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "I7",
+      "check": "No scarcity claim in batches 05-07 (0 found = not found on sources inspected)",
+      "status": "PASSED",
+      "detail": "files: []"
+    },
+    {
+      "id": "I8",
+      "check": "ETB never appears as a part-supplier price currency (Ethiopian prices kept separately, unconverted)",
+      "status": "PASSED",
+      "detail": ""
+    },
+    {
+      "id": "G8",
+      "check": "Batch 04 source reconciliation",
+      "status": "PASSED",
+      "detail": "7 log rows with a -04 suffix / 6 source_findings in Batch 04 / 6 distinct domains in the 7 rows; the 7th row is ADEY-BZ4X-04"
+    },
+    {
+      "id": "H1",
+      "check": "Every column of every output file is documented in data_dictionary.md, and file headers match the schema",
+      "status": "PASSED",
+      "detail": "undocumented: []; header mismatches: []"
+    }
+  ]
+}
