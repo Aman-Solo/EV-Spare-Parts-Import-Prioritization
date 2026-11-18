@@ -11,3 +11,4 @@ Evidence preparation only: no scoring, ranking or recommendation.
    `vehicle_market_evidence.csv` on `vehicle_id` and to `product_observations.csv` on `record_id`.
    Do not mix market rows into the part table. Listing counts are visibility proxies,
    not registrations or sales.
+5. Google colab link: https://colab.research.google.com/github/Aman-Solo/EV-Spare-Parts-Import-Prioritization/blob/main/Amanuel_Solomon.ipynb
