@@ -16,7 +16,7 @@
 | `nhtsa_component_mapping.csv` | How NHTSA's component names map to the 10 part categories. |
 | `make_scoring_input.py` | Turns the main table into five 0-1 factor scores per row, using written rules. |
 | `data/` | Everything the notebook needs: `scoring_input.csv`, `scoring_rules.csv`, `weights_proposed.csv`, and copies of the main tables. |
-| `analysis.ipynb` | Loads `data/`, scores, ranks (vehicle-part and category), and runs the sensitivity tests. Works in Colab. |
+| `Amanuel_Solomon.ipynb` | Loads `data/`, scores, ranks (vehicle-part and category), and runs the sensitivity tests. Works in Colab. |
 | `decision_log.md` | Every key decision, the alternatives considered, and why. |
 | `limitations.md` | What we could not find or verify. |
 | `vehicle_selection_rationale.md` | Why these 3 vehicles. |
