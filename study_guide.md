@@ -1,7 +1,5 @@
 # Study guide: EV spare-parts import prioritisation
 
-Read this before the presentation. Plain language; every number comes from the final files.
-
 ## 1. What each file is for
 
 | File / folder | Purpose in one line |
